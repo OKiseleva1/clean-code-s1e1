@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.elem, .title {
+.elem,
+.title {
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -115,7 +117,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -157,7 +158,8 @@ input[type="checkbox"] {
   display: none;
 }
 
-.list.edit-mode input[type=text] {
+.list
+.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
